@@ -22,7 +22,6 @@ class Player:
             self.cards.append("K")
         else:
             self.cards.append(card)
-        #random generator for card numbers when pulled
     def check_cards(self):
         total = 0
         for card in self.cards:
