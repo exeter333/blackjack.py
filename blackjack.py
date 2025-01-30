@@ -87,7 +87,6 @@ class Dealer:
             self.cards.append("K")
         else:
             self.cards.append(card)
-        #random generator for card numbers when pulled
     def check_cards(self):
         total = 0
         for card in self.cards:
@@ -244,8 +243,6 @@ while(play==True):
                 else:
                     print("You win!!!")
                     end = True
-        if hit_or_stand=="9":
-            sys.exit()
         if(end==True):
             another = input("Press Y for another round! If you wish to exit, press N: ").upper()
             if another=="N":
